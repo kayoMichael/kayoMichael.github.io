@@ -1,9 +1,9 @@
 <template>
   <div>
     <section class="mt-4 mb-4">
-      <b-card overlay class="mt-5" img-src="img/header.jpg"
-       title="Hello! I'm Nancy Li">
-       <em>A Backend & Full Stack Engineer interested in software engineering and system design </em>
+      <b-card overlay class="mt-5" img-src="img/header.jpg" img-height="800"
+       title="Hello! I'm Michael (He Yang) Li">
+       <em>A First year Mathematics student with a goal of becoming a Computer Programmer </em>
       </b-card>
     </section>
 

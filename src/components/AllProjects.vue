@@ -103,7 +103,7 @@
 </template>
 
 <script>
-import { faPython, faHtml5, faBootstrap, faCuttlefish, faAws, faJs,faJava} from '@fortawesome/free-brands-svg-icons'
+import { faPython, faHtml5, faVuejs, faJs,faJava} from '@fortawesome/free-brands-svg-icons'
 export default {
   name: 'AllProjects',
   props: {
@@ -112,56 +112,40 @@ export default {
   data: function() {
     return {
       projects: [
-        { name: 'Chess', img: 'img/projects/chess.jpg', 
-        description: "Chess game and AI Chess player",
-        icons: [faPython, faJava],
-        date: 'March 2019',
-        details: ['An AI chess player', 'People can play chess against it through the terminal'],
-        algorithms: 'Binary tree and min-max algorithm',
-        carsPic: [{img: 'img/projects/chess.jpg', caption: 'Chess Game', text: 'chess game image'}],
-        languages: 'Python', code: 'https://github.com/nancytaen/Chess'},
+        { name: 'Jeopardy', img: 'img/projects/jeopardy.jpg',
+        description: "User Interactive Jeopardy Game",
+        icons: [faPython],
+        date: 'March 2018',
+        details: ['Players click on each individual squares and answer questions', 'And tries to win as much money as possible'],
+        carsPic: [{img: 'img/projects/jeopardytkinter.png', caption: 'Jeopardy Game', text: 'Jeopardy game image'}],
+        languages: 'Python: tkinter'},
 
         
-        { name: '999 (Hardware)', img: 'img/projects/slidepuzzle.png',
-        description: 'A sliding puzzle game that can be played on DE1-SOC computer',
-        icons: [faCuttlefish],
+        { name: 'Web Book-Keeping System', img: 'img/projects/Book.jpeg',
+        description: 'A Book keeping database web system that allows users to choose and purchase books.',
+        icons: [faJava, faHtml5,faJs],
         date: 'April 2020',
-        details: ['A sliding puzzle game', 'VGA to display graphics', 'PS2-keyboard to slide tiles', 
-        'Timer and HEX display to show the current status', 'A final project for hardware class, in a group of 2'], 
-        languages: 'C (using C to ARM compiler)', code: 'https://github.com/ruqhia/15-game-puzzle',
-        carsPic: [{img: 'img/projects/slideshow/puzzle_demo_0.jpg'}],
-        video: 'https://www.youtube.com/embed/omTtDrDrEHA'},
+        details: ['Users can purchase a Book', 'See if a Book is in inventory', 'Assess Purchase history',
+        'Login to their own account', 'Navigate through different genres of books on the webpage'],
+        languages: 'Java, Javascript, HTML, PostgreSQL', code: 'https://github.com/hazelbestt/book-reservation-code',
+        carsPic: [{img: 'img/projects/Database.png'}]},
         
-        { name: 'Petimage', img: 'img/projects/petimage.jpg', 
-        date: 'April 2020 -',
-        icons: [faPython, faHtml5, faBootstrap, faJs, faAws],
-        description: 'An instagram-like site where users share pictures of their pets',
-        details: ['Users create accounts, then upload and post pictures', 'Users can follow other users', 
-        'Users can like and comment other posts'], 
-        tip: 'Designed the Relational Database models', 
-        languages: 'Python: Flask, Sqlalchemy (MYSQL), alembic Jinja, HTML, Bootstrap, AWS: EC2, S3',
-        code: 'https://github.com/nancytaen/petimage',
-        carsPic: [{img: 'img/projects/slideshow/petimage_db.png', caption: 'DB Scheme'},
-                  {img: 'img/projects/slideshow/petimage_demo_0.jpg', caption: 'Login'},
-                  {img: 'img/projects/slideshow/petimage_demo_1.jpg', caption: 'Account Details'},
-                  {img: 'img/projects/slideshow/petimage_demo_2.jpg', caption: 'Create Post'},
-                  {img: 'img/projects/slideshow/petimage_demo_3.jpg', caption: 'Timeline'},
-                  {img: 'img/projects/slideshow/petimage_demo_4.jpg', caption: 'Likes and Comments'},
-                  {img: 'img/projects/slideshow/petimage_demo_5.jpg', caption: 'Follow'}
-        ],
-        video: 'https://www.youtube.com/embed/T25OFsE5dY4'},
-        
-        { name: 'Citation Machine', img: 'img/projects/citation.png',
-        date: 'July 2020', 
-        description: 'A citation machine that generates IEEE citations given URLs',
-        icons: [faPython, faHtml5],
-        details: ['Takes a list of URLs in editor or .txt file and generates IEEE Reference page', 'Uses Newspaper3k to retrieve article data', 
-        'Output IEEE reference in editor or .txt file'
-        ], 
-        tip: 'Used multithreading (ThreadPoolExecutor) to increase the speed',
-        languages: 'Python: Flask, Jinja, Newspaper3k', code: 'https://github.com/nancytaen/citation',
-        carsPic: [{img: 'img/projects/slideshow/citation_0.jpg'}, {img: 'img/projects/slideshow/citation_1.jpg'}],
-        video: 'https://www.youtube.com/embed/iHuRTnyezlA'},
+        { name: 'Personal Profolio Webpage', img: 'img/projects/slideshow/personal-profolio0.png',
+        date: 'December 2022',
+        icons: [faHtml5, faJs, faVuejs],
+        description: 'Personal profolio Webpage talking about Achievements and project history',
+        details: ['Included with buttons to navigate through profolio', 'All information about past projects and myself as a programmer',
+        'Good display of images'],
+        languages: 'HTML, Javascript, Vue.js',
+        code: 'https://github.com/kayoMichael/kayoMichael.github.io',
+        carsPic: [{img: 'img/projects/slideshow/personal-profolio0.png', caption: 'Top'},
+                  {img: 'img/projects/slideshow/personal-profolio.png', caption: 'About me'},
+                  {img: 'img/projects/slideshow/personal-profolio2.png', caption: 'Skills'},
+                  {img: 'img/projects/slideshow/personal-profolio3.png', caption: 'Experiences'},
+                  {img: 'img/projects/slideshow/personal-profolio4.png', caption: 'Projects'},
+                  {img: 'img/projects/slideshow/personal-profolio5.png', caption: 'Contact'},
+
+        ]},
         
         // { name: 'Project6', img: '/img1', 
         // description: 'Some quick example text to build on the card title and make up the bulk of the cards content.',

@@ -24,8 +24,8 @@
     <footer class="bg-light">
       <div class="container-footer">
       <span class="container align-middle">
-        Created by Nancy Li <br>
-        © Nancy Li's Portfolio Site 2020. All rights reserved.
+        Created by Michael Li <br>
+        © Michael Li's Portfolio Site 2022. All rights reserved.
       </span>
       </div>
     </footer>
@@ -43,11 +43,11 @@ export default {
   data: function() {
     return {
       navLinks: [
-        {name: 'AboutMe', url: '#about'},
-        {name: 'MySkills', url:'#skills'},
-        {name: 'WorkExperience', url: '#experience'},
-        {name: 'AllProjects', url: '#projects'},
-        {name: 'ContactMe', url: '#contact'}
+        {name: 'About Me', url: '#about'},
+        {name: 'Skills', url:'#skills'},
+        {name: 'Experiences', url: '#experience'},
+        {name: 'Projects', url: '#projects'},
+        {name: 'Contacts', url: '#contact'}
       ]
     }
   }

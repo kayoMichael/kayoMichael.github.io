@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="mt-4 mb-5">
-            <h3>Work Experience</h3>
+            <h3>Unpaid Internships</h3>
             <b-card v-for="job in jobs" :key="job.title" :title="job.title" 
               class="col-sm-9 col-lg-8 col-11 mx-auto text-left mb-2">
                 <ul class="list-inline">
@@ -17,7 +17,7 @@
         </div>
 
         <div>
-            <h3>Entrepreneurial Experience</h3>
+            <h3>Extracurricular Activities</h3>
             <b-card v-for="entrep in entreps" :key="entrep.name" 
               class="col-sm-9 col-lg-8 col-11 mx-auto text-left mb-2">
                 <b-card-title>
@@ -47,43 +47,29 @@ export default {
     data: function() {
         return {
             jobs: [
-                {title: 'Software Engineer Intern', company: 'Intel PSG', location: 'San Jose, CA',
-                 date: 'Aug 2021 - Present', 
-                 details: ['working on migration projects in an analogue design team',],
+                {title: 'Book Reservation System', company: 'MPB Japan', location: 'Tokyo Japan',
+                 date: 'Jun 2021 - Sep 2021',
+                 details: ['Developed a Book Reservation System with mentoring from a senior engineer', 'Implemented business logic of REST API to retrieve, update and check out books\n' +
+                 'using Java Spring framework and PostgreSQL database', 'More Details in the Projects Section'],
                  compUrl: '/',
                 },
 
-                {title: 'Software Development Engineer Intern', company: 'Amazon', location: 'Toronto, ON, Canada',
-                 date: 'May - July 2021', 
-                 details: ['Migrated Fulfillment Centre (FC) Setup system a cloud native solution in Python',
-                 'Programmatically created and configured AWS resources (Lambda, Step Function, DynamoDB, API Gateway) CDK in TypeScript',],
+                {title: 'Student Database', company: 'Inspiration Learning Center', location: 'Missisauga, ON, Canada',
+                 date: 'Jun 2020 - Sep 2020',
+                 details: ['Developed a student database system using Java Spring framework and MYSQL database with another employee.',
+                 'Created HTML page to allow the administrator to create, update, and view student information such as name, age, and current courses',
+                 'Implemented back-end API to store and update student information in MYSQL database'],
                  compUrl: '/',
                 },
-                {title: 'Full Stack Developer Intern', company: 'Uniaim Co., Ltd.', location: 'Tokyo, Japan',
-                 date: 'May - August 2019', 
-                 details: ['Developed a point management system for Japanese Basketball League', 
-                 'Retrieved and displayed data of 400,000+ Fan Club members from external APIs',
-                 'Created and uploaded excel/csv files from member data',
-                 'Python (Flask), VueJS, MYSQL, AWS (EC2, S3, Lambda)'],
-                 compUrl: 'https://uniaim.co.jp/',},
                 ],
             entreps: [
-                {name: 'MoneyPong', position: 'Co-Founder/ Developer', project: 'U of T Hatchery', date: 'Sept 2019 - June 2020',
-                 location: 'Toronto, ON, Canada', img: 'img/logos/moneypong.png',
-                 details: ['A team of 5 University of Toronto students',
-                 'A pong game with integration of crypto currency',
-                 'Built member login and signup pages using jQuery and NodeJS',
-                 'Participated in UofT Hatchery and conducted research on the market and the legal drawbacks'],
-                 projUrl: 'https://hatchery.engineering.utoronto.ca/',
-                 url: 'http://moneypong.herokuapp.com/'},
-                {name: 'Givt', position: 'Co-Founder', project: 'U of T Hatchery', date: 'June 2020 - present', 
-                 location: 'Toronto, ON, Canada', img: 'img/logos/givt.png',
-                 details: ['A pivot of MoneyPong in the Hatchery Program',
-                 'A system where users can split the cost of a gift',
-                 'Formulated ideas, conducted research, and prepared for pitches to investors'
-                 ],
-                 projUrl: 'https://hatchery.engineering.utoronto.ca/',
-                 urlMes: 'Please contact me if you are interested in seeing the Final Pitch Slide Show.'}
+                {name: 'Computer Science Summer Credit Course', Insitution: 'Cornell University', date: 'Jun 2020 - Aug 2020',
+                 location: 'Online', img: 'img/logos/CornellUniversity.jpeg',
+                 details: ['A Selection-Based program',
+                 'Worked on Weekly lessons and labs mainly focused on Object-oriented Programming and Graphical User Interfaces (GUI)',
+                 'Programmed a functional and interactive board game utilizing inheritance as a project',
+                 'Programmed a trivia game with visuals using Tkinter as a project'],
+                 url: 'https://sce.cornell.edu/courses/roster/cs-1110'},
                 ],
         }
     }
