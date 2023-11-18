@@ -7,8 +7,7 @@
         <div class="about-me-body">
           <div class="container-sm">
             <br>
-
-            <p class="lead-text"> Hello! My name is Michael Li.</p>
+            <p class="lead-text"> Hello! My name is Michael (Heyang) Li</p>
             I am a <strong> 3rd year Stduent</strong>studying Mathematics and Computer Science at the University of Waterloo.
             My passion lies in <u> software development and applied mathematics</u>. I am especially interested in <u> front-end and
             back-end web-development </u>. I enjoy exploring new algorithms and technologies, and am constantly looking for
