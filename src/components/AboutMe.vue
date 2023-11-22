@@ -8,21 +8,21 @@
           <div class="container-sm">
             <br>
             <p class="lead-text"> Hello! My name is Michael (Heyang) Li</p>
-            I am a <strong> 3rd year Stduent</strong>studying Mathematics and Computer Science at the University of Waterloo.
+            I am a 3rd year Stduent <strong>studying Mathematics and Computer Science</strong> at the University of Waterloo.
             My passion lies in <u> software development and applied mathematics</u>. I am especially interested in <u> front-end and
             back-end web-development </u>. I enjoy exploring new algorithms and technologies, and am constantly looking for
             methods to improve the <strong> efficiency </strong> of the program. I also value <strong> organization </strong> and <strong> readability </strong> when coding. I put strong emphasis on
             neat project structure, logical classes and database models, and detailed documentation. <br>
             <br>
 
-            In school, I am taking additional classes on <u> mathematics and computer science</u>. I am looking
+            In school, I have taken classes on <u> Algorithms, Data Structures, Assembly Code, and Object Oriented Programming</u>. I am looking
             to applying these knowledge in software development inorder for myself to become a first hand programmer. I want to use my skills and knowledge
             to build software that can fill <em>the gap</em> in people's lives. 
           </div>
           <br><br>
           <div>
            <!-- download resume -->
-            <a class="btn btn-outline-secondary" href="file/Michael_He_yang_Li____3.pdf" target="_blank">Resume</a><br>
+            <a class="btn btn-outline-secondary" href="file/Resume.pdf" target="_blank">Resume</a><br>
           </div>
         </div>
 

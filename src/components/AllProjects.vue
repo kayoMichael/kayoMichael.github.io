@@ -23,7 +23,8 @@
               <b-carousel-slide v-for="(imgG, idx) in project.carsPic" :key="idx"
                 :caption="imgG.caption"
                 :text="imgG.text"
-                :img-src="imgG.img">
+                :img-src="imgG.img"
+                :img-height="imgG.height">
               </b-carousel-slide>
             </b-carousel>
           </div>  
@@ -103,7 +104,7 @@
 </template>
 
 <script>
-import { faPython, faHtml5, faVuejs, faJs,faJava} from '@fortawesome/free-brands-svg-icons'
+import {faHtml5, faVuejs, faJs, faCss3Alt} from '@fortawesome/free-brands-svg-icons'
 export default {
   name: 'AllProjects',
   props: {
@@ -112,26 +113,28 @@ export default {
   data: function() {
     return {
       projects: [
-        { name: 'Jeopardy', img: 'img/projects/jeopardy.jpg',
-        description: "User Interactive Jeopardy Game",
-        icons: [faPython],
-        date: 'March 2018',
-        details: ['Players click on each individual squares and answer questions', 'And tries to win as much money as possible'],
-        carsPic: [{img: 'img/projects/jeopardytkinter.png', caption: 'Jeopardy Game', text: 'Jeopardy game image'}],
-        languages: 'Python: tkinter'},
+        { name: 'Addidas Coming Soon Page', img: 'img/projects/Desktop_2.png',
+        description: "Langing Page for Addidas. Coded Using HTML and Responsive CSS",
+        icons: [faHtml5, faCss3Alt],
+        date: 'January 2022',
+        details: ['A Potential Concept Design Page for Addidas', 'It is 100% Responsive and shows different structures for different screen size',
+                  'Utilized Important CSS Methods such as Media Queries and Flex-box.'],
+        carsPic: [{img: 'img/projects/Desktop_2.png', caption: 'Version 1'},
+                  {img: 'img/projects/Desktop_1.png', caption: 'Version 2'}],
+        languages: 'HTML5 CSS',
+        code:'https://github.com/kayoMichael/Coming-Soon-Page'},
 
-        
-        { name: 'Web Book-Keeping System', img: 'img/projects/Book.jpeg',
-        description: 'A Book keeping database web system that allows users to choose and purchase books.',
-        icons: [faJava, faHtml5,faJs],
-        date: 'April 2020',
-        details: ['Users can purchase a Book', 'See if a Book is in inventory', 'Assess Purchase history',
-        'Login to their own account', 'Navigate through different genres of books on the webpage'],
-        languages: 'Java, Javascript, HTML, PostgreSQL', code: 'https://github.com/hazelbestt/book-reservation-code',
-        carsPic: [{img: 'img/projects/Database.png'}]},
+        { name: 'Uber Eats Design Page', img: 'img/projects/Desktop.png',
+        description: 'Responsive UberEats Web Page',
+        icons: [faHtml5, faCss3Alt],
+        date: 'July 2023',
+        details: ['Uber Eats Response Page with Custom Pages on Mobile, Desktop', 'Media Queries on 981 px width screen', 'Uses Advance Selectors and Flex Box'],
+        languages: 'HTML, CSS',
+        code: 'https://github.com/kayoMichael/Uber-eats-confirmation-page',
+        carsPic: [{img: 'img/projects/mobile-version.png'}]},
         
         { name: 'Personal Profolio Webpage', img: 'img/projects/slideshow/personal-profolio0.png',
-        date: 'December 2022',
+        date: 'August 2023',
         icons: [faHtml5, faJs, faVuejs],
         description: 'Personal profolio Webpage talking about Achievements and project history',
         details: ['Included with buttons to navigate through profolio', 'All information about past projects and myself as a programmer',
