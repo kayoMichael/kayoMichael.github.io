@@ -9,7 +9,7 @@
         title="Hello! I'm Michael (He Yang) Li"
       >
         <em
-          >A Third year Mathematics student with a goal of becoming a Computer
+          >A third year Mathematics student with a goal of becoming a Computer
           Programmer
         </em>
       </b-card>

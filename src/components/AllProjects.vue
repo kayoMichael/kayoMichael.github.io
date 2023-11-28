@@ -276,6 +276,8 @@ export default {
               img: "img/projects/slideshow/Page-3.png",
             },
           ],
+          video:
+            "https://www.youtube.com/embed/7lKUayseJOY?si=XezuSISRBPl4qlJ5",
         },
 
         // { name: 'Project6', img: '/img1',
