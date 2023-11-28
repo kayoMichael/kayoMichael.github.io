@@ -151,41 +151,29 @@ export default {
     return {
       projects: [
         {
-          name: "Addidas Coming Soon Page",
-          img: "img/projects/Desktop_2.png",
-          description:
-            "Langing Page for Addidas. Coded Using HTML and Responsive CSS",
-          icons: [faHtml5, faCss3Alt],
-          date: "January 2022",
+          name: "Epic-Games Landing Page",
+          img: "img/projects/slideshow/Main-Page.png",
+          date: "Oct 2023",
+          icons: [faHtml5, faCss3Alt, faReact, faJs],
+          description: "Replica of Epic Games Main Landing Page Launcher",
           details: [
-            "A Potential Concept Design Page for Addidas",
-            "It is 100% Responsive and shows different structures for different screen size",
-            "Utilized Important CSS Methods such as Media Queries and Flex-box.",
+            "A Game Landing Pages Styled With Chakra UI",
+            "Fetched Game Information from Rawg API and Displayed Using React",
+            "Utilized Hooks and Services for a clean Source Code",
           ],
+          languages: "HTML, TypeScript, React, Chakra UI",
+          code: "https://github.com/kayoMichael/Game-Page",
           carsPic: [
-            { img: "img/projects/Desktop_2.png", caption: "Version 1" },
-            { img: "img/projects/Desktop_1.png", caption: "Version 2" },
+            {
+              img: "img/projects/slideshow/Page-2.png",
+            },
+            {
+              img: "img/projects/slideshow/Page-3.png",
+            },
           ],
-          languages: "HTML5 CSS",
-          code: "https://github.com/kayoMichael/Coming-Soon-Page",
+          video:
+            "https://www.youtube.com/embed/7lKUayseJOY?si=XezuSISRBPl4qlJ5",
         },
-
-        {
-          name: "Uber Eats Design Page",
-          img: "img/projects/Desktop.png",
-          description: "Responsive UberEats Web Page",
-          icons: [faHtml5, faCss3Alt],
-          date: "July 2023",
-          details: [
-            "Uber Eats Response Page with Custom Pages on Mobile, Desktop",
-            "Media Queries on 981 px width screen",
-            "Uses Advance Selectors and Flex Box",
-          ],
-          languages: "HTML, CSS",
-          code: "https://github.com/kayoMichael/Uber-eats-confirmation-page",
-          carsPic: [{ img: "img/projects/mobile-version.png" }],
-        },
-
         {
           name: "Personal Profolio Webpage",
           img: "img/projects/slideshow/personal-profolio0.png",
@@ -256,28 +244,39 @@ export default {
           ],
         },
         {
-          name: "Game Page",
-          img: "img/projects/slideshow/Main-Page.png",
-          date: "Oct 2023",
-          icons: [faHtml5, faCss3Alt, faReact, faJs],
-          description: "Epic Games Page",
+          name: "Addidas Coming Soon Page",
+          img: "img/projects/Desktop_2.png",
+          description:
+            "Langing Page for Addidas. Coded Using HTML and Responsive CSS",
+          icons: [faHtml5, faCss3Alt],
+          date: "January 2022",
           details: [
-            "A Game Landing Pages Styled With Chakra UI",
-            "Fetched Game Information from Rawg API and Displayed Using React",
-            "Utilized Hooks and Services for a clean Source Code",
+            "A Potential Concept Design Page for Addidas",
+            "It is 100% Responsive and shows different structures for different screen size",
+            "Utilized Important CSS Methods such as Media Queries and Flex-box.",
           ],
-          languages: "HTML, TypeScript, React, Chakra UI",
-          code: "https://github.com/kayoMichael/Game-Page",
           carsPic: [
-            {
-              img: "img/projects/slideshow/Page-2.png",
-            },
-            {
-              img: "img/projects/slideshow/Page-3.png",
-            },
+            { img: "img/projects/Desktop_2.png", caption: "Version 1" },
+            { img: "img/projects/Desktop_1.png", caption: "Version 2" },
           ],
-          video:
-            "https://www.youtube.com/embed/7lKUayseJOY?si=XezuSISRBPl4qlJ5",
+          languages: "HTML5 CSS",
+          code: "https://github.com/kayoMichael/Coming-Soon-Page",
+        },
+
+        {
+          name: "Uber Eats Design Page",
+          img: "img/projects/Desktop.png",
+          description: "Responsive UberEats Web Page",
+          icons: [faHtml5, faCss3Alt],
+          date: "July 2023",
+          details: [
+            "Uber Eats Response Page with Custom Pages on Mobile, Desktop",
+            "Media Queries on 981 px width screen",
+            "Uses Advance Selectors and Flex Box",
+          ],
+          languages: "HTML, CSS",
+          code: "https://github.com/kayoMichael/Uber-eats-confirmation-page",
+          carsPic: [{ img: "img/projects/mobile-version.png" }],
         },
 
         // { name: 'Project6', img: '/img1',
