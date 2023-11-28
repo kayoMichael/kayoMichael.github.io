@@ -8,7 +8,7 @@
           <div class="container-sm">
             <br>
             <p class="lead-text"> Hello! My name is Michael (Heyang) Li</p>
-            I am a 3rd year Stduent <strong>studying Mathematics and Computer Science</strong> at the University of Waterloo.
+            I am a 3rd year Student <strong>studying Mathematics and Computer Science</strong> at the University of Waterloo.
             My passion lies in <u> software development and applied mathematics</u>. I am especially interested in <u> front-end and
             back-end web-development </u>. I enjoy exploring new algorithms and technologies, and am constantly looking for
             methods to improve the <strong> efficiency </strong> of the program. I also value <strong> organization </strong> and <strong> readability </strong> when coding. I put strong emphasis on
