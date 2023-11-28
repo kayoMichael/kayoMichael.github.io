@@ -116,6 +116,11 @@ export default {
             img: "img/logos/bootstrap.png",
           },
           {
+            name: "Chakra",
+            exps: ["4 months"],
+            img: "img/logos/chakra.svg",
+          },
+          {
             name: "Serverless",
             exps: ["1 year"],
             img: "img/logos/serverless.svg",
