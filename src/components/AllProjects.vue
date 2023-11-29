@@ -278,11 +278,6 @@ export default {
           code: "https://github.com/kayoMichael/Uber-eats-confirmation-page",
           carsPic: [{ img: "img/projects/mobile-version.png" }],
         },
-
-        // { name: 'Project6', img: '/img1',
-        // description: 'Some quick example text to build on the card title and make up the bulk of the cards content.',
-        // details: [],
-        // languages: '', code: ''}
       ],
     };
   },
